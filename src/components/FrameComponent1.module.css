@@ -1,0 +1,464 @@
+.container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    box-shadow: var(--navbar);
+    background-color: var(--grey-white);
+}
+
+.hobbycueLogoIcon {
+    height: auto;
+    width: 20vw;
+    /* Adjusted for responsiveness */
+    max-width: 100px;
+    /* Maximum width to maintain aspect ratio */
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.searchboxChild {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-5xs);
+    background-color: var(--grey-hover);
+    border: 1px solid var(--grey-lighter);
+    box-sizing: border-box;
+    mix-blend-mode: normal;
+}
+
+.searchHere {
+    text-decoration: none;
+    position: relative;
+    line-height: 16px;
+    font-weight: 300;
+    color: inherit;
+    display: inline-block;
+    min-width: 79px;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.searchHereWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-xs) 0 0;
+}
+
+.frameChild,
+.icons8Search1 {
+    position: absolute;
+    border-radius: 0 var(--br-5xs) var(--br-5xs) 0;
+}
+
+.frameChild {
+    top: 0;
+    left: 0;
+    background-color: var(--primary-full);
+    width: 100%;
+    height: 100%;
+}
+
+.icons8Search1 {
+    top: 12px;
+    left: 12px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.rectangleParent {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.searchbox {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 0 0 var(--padding-xs);
+    position: relative;
+    gap: var(--gap-xl);
+    z-index: 1;
+}
+
+.hobbycueLogoParent,
+.searchboxWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.searchboxWrapper {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-3xs) 0 0;
+}
+
+.hobbycueLogoParent {
+    width: 100%;
+    flex-direction: row;
+    gap: var(--gap-15xl-7);
+    max-width: 100%;
+}
+
+.exploreIcon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 24px;
+}
+
+.explore {
+    text-decoration: none;
+    position: relative;
+    line-height: 22px;
+    font-weight: 500;
+    color: inherit;
+    display: inline-block;
+    min-width: 51px;
+}
+
+.exploreWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+}
+
+.icons8ExpandArrow1 {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 24px;
+}
+
+.exploreParent,
+.frameWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.exploreParent {
+    flex-direction: row;
+    gap: var(--gap-9xs);
+}
+
+.frameWrapper {
+    flex-direction: column;
+    padding: var(--padding-5xs) 0 0;
+}
+
+.hobbiesIcon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.hobbiesChild {
+    height: 19px;
+    width: 19px;
+    position: relative;
+}
+
+.hobbies,
+.hobbiesItem {
+    position: absolute;
+    z-index: 1;
+}
+
+.hobbiesItem {
+    height: 12px;
+    width: 12px;
+    margin: 0 !important;
+    top: 6px;
+    left: 6px;
+    border-radius: var(--br-12xs-4);
+}
+
+.hobbies {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-3xs);
+}
+
+.hobbiesParent {
+    height: 24px;
+    width: 24px;
+    position: relative;
+}
+
+.hobbies1 {
+    text-decoration: none;
+    position: relative;
+    line-height: 22px;
+    font-weight: 500;
+    color: inherit;
+    display: inline-block;
+    min-width: 58px;
+}
+
+.hobbiesWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-11xs) 0 0;
+}
+
+.icons8ExpandArrow11 {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 24px;
+}
+
+.frameContainer,
+.frameGroup {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.frameGroup {
+    flex-direction: row;
+    gap: var(--gap-9xs);
+}
+
+.frameContainer {
+    flex-direction: column;
+    padding: var(--padding-5xs) 0 0;
+}
+
+.bookmarkBlack24dp1Icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.bookmarkBlack24dp1Wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xs) 0 0;
+}
+
+.notificationsBlack24dp1Icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.notificationsBlack24dp1Wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xs) 0 0;
+}
+
+.product3Icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.product3Wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xs) 0 0;
+}
+
+.frameItem {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-5xs);
+    background-color: var(--grey-white);
+    border: 1px solid var(--primary-full);
+    box-sizing: border-box;
+}
+
+.signIn {
+    text-decoration: none;
+    position: relative;
+    line-height: 16px;
+    font-weight: 600;
+    color: inherit;
+    display: inline-block;
+    min-width: 48px;
+    z-index: 1;
+}
+
+.rectangleGroup {
+    justify-content: flex-start;
+    padding: var(--padding-3xs) var(--padding-13xl) var(--padding-sm);
+    position: relative;
+    white-space: nowrap;
+}
+
+.frameParent,
+.groupDiv,
+.rectangleGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.groupDiv {
+    justify-content: flex-start;
+    color: var(--primary-full);
+}
+
+.frameParent {
+    align-self: stretch;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    z-index: 1;
+}
+
+.navbar,
+.navbarInner,
+.navbarWrapper {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.navbarInner {
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 0 0;
+    font-size: var(--text-sm-bold-size);
+    color: var(--base-black);
+}
+
+.navbar,
+.navbarWrapper {
+    flex-direction: row;
+}
+
+.navbar {
+    flex: 1;
+    justify-content: center;
+    padding: var(--padding-3xs) var(--padding-xl);
+    position: relative;
+    gap: var(--gap-71xl);
+    text-align: left;
+    font-size: var(--font-size-xs);
+    color: var(--color-darkgray);
+    font-family: var(--text-sm-bold);
+}
+
+.navbarWrapper {
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-7xs);
+    top: 0;
+    z-index: 99;
+    position: sticky;
+}
+
+@media screen and (max-width: 750px) {
+    .hobbycueLogoParent {
+        gap: var(--gap-mid);
+        width: 100%;
+        /* Adjust to fit the screen */
+    }
+
+    .navbar {
+        gap: var(--gap-26xl);
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .navbar {
+        gap: var(--gap-3xl);
+        padding: var(--padding-2xs);
+        /* Adjust padding for smaller screens */
+    }
+
+    .hobbycueLogoIcon {
+        width: 30vw;
+        /* Make logo size more responsive */
+        max-width: 80px;
+        /* Adjust max width for smaller screens */
+    }
+
+    .searchbox {
+        flex-direction: column;
+        align-items: stretch;
+        gap: var(--gap-sm);
+        /* Adjust gap for smaller screens */
+    }
+
+    .searchHereWrapper {
+        width: 100%;
+        /* Ensure search input spans full width on small screens */
+    }
+
+    .rectangleParent {
+        height: 35px;
+        width: 35px;
+        /* Adjust search icon container size */
+    }
+
+    .icons8Search1 {
+        top: 10px;
+        left: 10px;
+        width: 14px;
+        height: 14px;
+        /* Adjust search icon size */
+    }
+}

@@ -1,0 +1,138 @@
+.feature1Child {
+    height: 818px;
+    width: 1440px;
+    position: relative;
+    background-color: var(--grey-white);
+    display: none;
+    max-width: 100%;
+}
+
+.frameContainer,
+.frameGroup {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+}
+
+.feature1,
+.feature1Wrapper,
+.frameContainer,
+.frameGroup,
+.frameParent {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+}
+
+.frameParent {
+    width: 1240px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+    z-index: 1;
+}
+
+.feature1,
+.feature1Wrapper {
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.feature1 {
+    flex: 1;
+    background-color: var(--grey-white);
+    justify-content: center;
+    padding: var(--padding-81xl) var(--padding-xl);
+    flex-shrink: 0;
+    debug_commit: bf4bc93;
+}
+
+.feature1Wrapper {
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-mid);
+    margin-top: -33px;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--base-black);
+    font-family: var(--text-sm-bold);
+}
+
+@media screen and (max-width: 1050px) {
+
+    .frameContainer,
+    .frameGroup {
+        flex-wrap: wrap;
+    }
+
+    .feature1 {
+        padding-top: var(--padding-34xl);
+        padding-bottom: var(--padding-46xl);
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .feature1 {
+        padding-bottom: var(--padding-23xl);
+        box-sizing: border-box;
+    }
+}
+
+/* FrameComponent.module.css */
+
+.groupComponent {
+    transition: transform 0.3s ease;
+    border: 2px solid transparent;
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #fff;
+    /* Default background color */
+}
+
+.groupComponent:hover {
+    transform: scale(1.05);
+}
+
+.people {
+    border-color: #8064A2;
+    /* Border color for People */
+}
+
+.place {
+    border-color: #77933C;
+    /* Border color for Place */
+}
+
+.product {
+    border-color: #C0504D;
+    /* Border color for Product */
+}
+
+.program {
+    border-color: #0096C8;
+    /* Border color for Program */
+}
+
+.people:hover {
+    background-color: #8064A2;
+    /* Background color on hover */
+}
+
+.place:hover {
+    background-color: #77933C;
+    /* Background color on hover */
+}
+
+.product:hover {
+    background-color: #C0504D;
+    /* Background color on hover */
+}
+
+.program:hover {
+    background-color: #0096C8;
+    /* Background color on hover */
+}

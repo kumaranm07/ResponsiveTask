@@ -1,0 +1,638 @@
+.homeScreenChild {
+    height: 678px;
+    width: 1440px;
+    position: relative;
+    background-color: var(--purple-3);
+    display: none;
+    max-width: 100%;
+}
+
+.hobby {
+    color: var(--blue-1);
+}
+
+.passion {
+    color: var(--primary-full);
+}
+
+.exploreYourHobbyContainer,
+.ifYouAre,
+.signInToInteract {
+    margin: 0;
+    position: relative;
+    letter-spacing: 0.02em;
+    z-index: 1;
+}
+
+.exploreYourHobbyContainer {
+    font-size: inherit;
+    display: inline-block;
+    font-style: italic;
+    font-weight: 600;
+    font-family: inherit;
+    max-width: 100%;
+}
+
+.ifYouAre,
+.signInToInteract {
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.signInToInteract {
+    align-self: stretch;
+}
+
+.ifYouAre {
+    flex: 1;
+    white-space: pre-wrap;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.ifYouAreAnExpertOrASellWrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-12xs);
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.exploreYourHobbyOrPassionParent,
+.signInToInteractWithAComParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.signInToInteractWithAComParent {
+    gap: var(--gap-base);
+    font-size: var(--text-sm-bold-size);
+}
+
+.exploreYourHobbyOrPassionParent {
+    gap: var(--gap-13xl);
+}
+
+.iconManipulator,
+.iconManipulator1 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    min-width: 219px;
+    min-height: 216px;
+    flex-shrink: 0;
+    debug_commit: bf4bc93;
+    z-index: 1;
+}
+
+.iconManipulator1 {
+    min-width: 225px;
+}
+
+.frameParent,
+.homeImage {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.homeImage {
+    align-self: stretch;
+    flex-direction: row;
+    gap: var(--gap-mini-4);
+}
+
+.frameParent {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-61xl);
+}
+
+.signIn {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 69px;
+}
+
+.dataAggregator {
+    align-self: stretch;
+    height: 2px;
+    position: relative;
+    background-color: var(--primary-full);
+}
+
+.signInParent {
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-11xs);
+}
+
+.joinIn {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 67px;
+}
+
+.frameChild {
+    height: 2px;
+    width: 67px;
+    position: relative;
+    background-color: var(--primary-full);
+    display: none;
+}
+
+.joinInParent,
+.signinjoinin {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.joinInParent {
+    justify-content: flex-start;
+    color: var(--color-darkgray);
+}
+
+.signinjoinin {
+    width: 169px;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    z-index: 1;
+}
+
+.googleIcon {
+    height: 16px;
+    width: 16px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 16px;
+}
+
+.continueWithGoogle {
+    position: relative;
+    font-size: var(--text-sm-bold-size);
+    line-height: 16px;
+    font-weight: 600;
+    font-family: var(--text-sm-bold);
+    color: var(--grey-darkest);
+    text-align: left;
+}
+
+.loginWithOtherAccounts {
+    align-self: stretch;
+    border-radius: var(--br-5xs);
+    background-color: var(--purple-3);
+    border: 1px solid var(--primary-full);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) var(--padding-5xl);
+    gap: var(--gap-69xl);
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.facebookIcon {
+    height: 16px;
+    width: 16px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 16px;
+}
+
+.continueWithFacebook {
+    position: relative;
+    font-size: var(--text-sm-bold-size);
+    line-height: 16px;
+    font-weight: 600;
+    font-family: var(--text-sm-bold);
+    color: var(--grey-darkest);
+    text-align: left;
+}
+
+.loginWithOtherAccounts1,
+.loginWithOtherAccountsParent {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.loginWithOtherAccounts1 {
+    border-radius: var(--br-5xs);
+    background-color: var(--purple-3);
+    border: 1px solid var(--primary-full);
+    overflow: hidden;
+    flex-direction: row;
+    padding: var(--padding-3xs) var(--padding-5xl);
+    gap: var(--gap-60xl);
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.loginWithOtherAccountsParent {
+    flex-direction: column;
+    gap: var(--gap-base);
+}
+
+.starFabricator {
+    align-self: stretch;
+    height: 2px;
+    position: relative;
+    background-color: var(--grey-light);
+}
+
+.starFabricatorWrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xs) 0 0;
+    box-sizing: border-box;
+    min-width: 97px;
+}
+
+.orConnectWith {
+    position: relative;
+    font-size: var(--font-size-xs);
+    line-height: 16px;
+    font-weight: 600;
+    font-family: var(--text-sm-bold);
+    color: var(--base-black);
+    text-align: left;
+    display: inline-block;
+    min-width: 97px;
+}
+
+.frameItem {
+    align-self: stretch;
+    height: 2px;
+    position: relative;
+    background-color: var(--grey-light);
+}
+
+.connectWithSeparator,
+.connectWithSeparatorInner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.connectWithSeparatorInner {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-5xs) 0 0;
+    box-sizing: border-box;
+    min-width: 97px;
+}
+
+.connectWithSeparator {
+    align-self: stretch;
+    flex-direction: row;
+    gap: var(--gap-5xs);
+    z-index: 1;
+}
+
+.email {
+    position: relative;
+    font-size: var(--font-size-xs);
+    line-height: 16px;
+    font-family: var(--text-sm-bold);
+    color: var(--color-darkgray);
+    text-align: left;
+    display: inline-block;
+    min-width: 33px;
+}
+
+.inputFields {
+    align-self: stretch;
+    border-radius: var(--br-5xs);
+    background-color: var(--grey-white);
+    border: 1px solid var(--grey-lighter);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) var(--padding-xs);
+    z-index: 1;
+}
+
+.password {
+    position: relative;
+    font-size: var(--font-size-xs);
+    line-height: 16px;
+    font-family: var(--text-sm-bold);
+    color: var(--color-darkgray);
+    text-align: left;
+    display: inline-block;
+    min-width: 58px;
+}
+
+.passwordIcon {
+    height: 16px;
+    width: 16px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 16px;
+}
+
+.component7,
+.inputFieldsParent {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+}
+
+.component7 {
+    border-radius: var(--br-5xs);
+    background-color: var(--grey-white);
+    border: 1px solid var(--grey-lighter);
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: var(--padding-3xs) var(--padding-smi) var(--padding-3xs) var(--padding-2xs);
+    gap: var(--gap-xl);
+    z-index: 1;
+}
+
+.inputFieldsParent {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+}
+
+.borderDesigner {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-11xs);
+    background-color: var(--purple-3);
+    border: 1px solid var(--primary-full);
+    box-sizing: border-box;
+}
+
+.checkbox,
+.rememberMe {
+    position: relative;
+    z-index: 1;
+}
+
+.checkbox {
+    height: 16px;
+    width: 16px;
+}
+
+.rememberMe {
+    font-size: var(--font-size-xs);
+    line-height: 16px;
+    font-family: var(--text-sm-bold);
+    color: var(--base-black);
+    text-align: left;
+    display: inline-block;
+    min-width: 92px;
+}
+
+.remember {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+}
+
+.forgotPassword1,
+.lockBlack24dp1Icon {
+    position: relative;
+    flex-shrink: 0;
+    debug_commit: bf4bc93;
+    z-index: 1;
+}
+
+.lockBlack24dp1Icon {
+    height: 16px;
+    width: 15.8px;
+    overflow: hidden;
+    min-height: 16px;
+}
+
+.forgotPassword1 {
+    font-size: var(--font-size-xs);
+    line-height: 16px;
+    font-family: var(--text-sm-bold);
+    color: var(--base-black);
+    text-align: left;
+    display: inline-block;
+    min-width: 107.4px;
+}
+
+.forgotPassword,
+.options {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs-8);
+}
+
+.options {
+    align-self: stretch;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+}
+
+.continue {
+    position: relative;
+    font-size: var(--text-sm-bold-size);
+    line-height: 16px;
+    font-weight: 600;
+    font-family: var(--text-sm-bold);
+    color: var(--base-black);
+    text-align: left;
+    display: inline-block;
+    min-width: 66px;
+}
+
+.buttons,
+.frameGroup,
+.signinjoininParent {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+}
+
+.buttons {
+    border-radius: var(--br-5xs);
+    border: 1px solid var(--base-black);
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: center;
+    padding: var(--padding-3xs) var(--padding-xl);
+    z-index: 1;
+}
+
+.frameGroup,
+.signinjoininParent {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.frameGroup {
+    margin: 0;
+    gap: var(--gap-7xl);
+}
+
+.signinjoininParent {
+    gap: var(--gap-13xl);
+}
+
+.homeScreen,
+.homeScreen1,
+.homeScreenInner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.homeScreenInner {
+    width: 410px;
+    flex-direction: column;
+    padding: var(--padding-10xs) 0 0;
+    min-width: 410px;
+    font-size: var(--font-size-xl);
+    color: var(--primary-full);
+}
+
+.homeScreen,
+.homeScreen1 {
+    flex-direction: row;
+}
+
+.homeScreen1 {
+    flex: 1;
+    background-color: var(--purple-3);
+    padding: var(--padding-81xl) var(--padding-81xl) 0;
+    gap: var(--gap-104xl);
+    flex-shrink: 0;
+    debug_commit: bf4bc93;
+    z-index: 2;
+}
+
+.homeScreen {
+    align-self: stretch;
+    padding: 0 0 var(--padding-8xl);
+    text-align: left;
+    font-size: var(--font-size-17xl);
+    color: var(--base-black);
+    font-family: var(--text-sm-bold);
+}
+
+@media screen and (max-width: 1125px) {
+    .homeScreenInner {
+        flex: 1;
+    }
+
+    .homeScreen1 {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .exploreYourHobbyContainer {
+        font-size: var(--font-size-10xl);
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .exploreYourHobbyOrPassionParent {
+        gap: var(--gap-base);
+    }
+
+    .homeImage {
+        flex-wrap: wrap;
+    }
+
+    .frameParent {
+        gap: var(--gap-21xl);
+    }
+
+    .frameParent,
+    .homeScreenInner {
+        min-width: 100%;
+    }
+
+    .homeScreen1 {
+        gap: var(--gap-42xl);
+        padding-left: var(--padding-31xl);
+        padding-top: var(--padding-46xl);
+        padding-right: var(--padding-31xl);
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .exploreYourHobbyContainer {
+        font-size: var(--font-size-3xl);
+    }
+
+    .frameParent {
+        gap: var(--gap-xl);
+    }
+
+    .joinIn,
+    .signIn {
+        font-size: var(--font-size-base);
+    }
+
+    .loginWithOtherAccounts {
+        gap: var(--gap-25xl);
+    }
+
+    .loginWithOtherAccounts1 {
+        gap: var(--gap-20xl);
+    }
+
+    .connectWithSeparator,
+    .options {
+        flex-wrap: wrap;
+    }
+
+    .signinjoininParent {
+        gap: var(--gap-base);
+    }
+
+    .homeScreen1 {
+        gap: var(--gap-12xl);
+        padding-left: var(--padding-xl);
+        padding-right: var(--padding-xl);
+        box-sizing: border-box;
+    }
+}
